@@ -1,3 +1,7 @@
+document.getElementById('clearFileButton').addEventListener('click', () => {
+    const fileInput = document.getElementById('pdfFile');
+    fileInput.value = ''; 
+  });
 
 document.getElementById('scheduleForm').addEventListener('submit', async (e) => {
     e.preventDefault();
